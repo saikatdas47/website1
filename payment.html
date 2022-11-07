@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/From.css">
+
+    <style>
+        #bg {
+
+            background-image: url("img/bgcrop.jpg");
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: 0%;
+        }
+ 
+ 
+    </style>
+
+</head>
+
+<body>
+  
+    <header>
+        <a href="index.html">
+            <h1>Let's Learn by Royloard</h1>
+        </a>
+        <h2>Payment</h2>
+    </header>
+    <span id="bg">
+        <img src="img/bgcrop.jpg" alt="" width="100%">
+    </span>
+    <nav class="Fixed">  <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="">Collage Review</a>
+        <a href="course.html">Course</a>
+        <a href="">Study Mateials</a>
+        <a href="payment.html" >Payment</a>
+
+        <a href="logging.html">Login/SignUp</a>
+    </nav>
+
+    <div class="container">
+        <h1 class="mainhead">User Details</h1>
+        <hr>
+        <br>
+        <form action="">
+            <h2 class="h2">Contact information </h2>
+            <p>Required fields are followed by *</p>
+
+            <div>
+                <p>Name *<input type="text" name="name" placeholder="Saikat Das" required> </p>
+                <fieldset>
+                    <legend>Gender *</legend>
+                    <p> Male <input type="radio" name="gender" id="" required>
+                        Female <input type="radio" name="gender" id="" required> </p>
+                </fieldset>
+                <p>Address: *<textarea name="address" id="" cols="60" rows="7"
+                        placeholder="Enter yourr hme address here" required></textarea></p>
+                <p>Email: *<input type="email" name="email" id="" placeholder="saikatdas@gmail.com" required></p>
+                <p>Phone: <input type="number" name="phone" placeholder="Your phone number here" id=""></p>
+                <p>Password: *<input type="number" type="text" name="passeord" placeholder="Give a password here"
+                        required></p>
+
+
+            </div>
+            <br>
+            <h2 class="h2">Payment Details</h2>
+            <br>
+            <div>
+                <p>Card type *
+                    <select name="cardtype" id="" required>
+                        <option value="">--Setect your Card--</option>
+                        <option value="visa">Visa</option>
+                        <option value="mastercard">Master Card</option>
+                        <option value="upay">Upay</option>
+                    </select>
+                </p>
+                <p>Card Number *<input type="number" name="cardnumber" id="" required></p>
+                <p>Expiration Date *<input type="date" name="carddate" id="" required></p>
+                <p>CVV *<input type="password" name="cvv" id="cvv" required></p>
+<br>
+                <input type="submit" value="Pay now">
+            </div>
+        </form>
+
+
+    </div>
+    <footer class="footer">
+        <a href="">FAQ</a>
+        <a href="">Contact Us</a>
+        <a href="">Terms of Use</a>
+        <a href="">Privacy Policy</a>
+        <a href="">Refund Policy</a>
+        <a href="">&copy; 2022 | Let's Learn by Royloard</a>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+header h1 {
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(14, 2, 38);
+    font-family: Arial, Helvetica, sans-serif;
+
+
+
+
+}
+
+header h1:hover {
+    color: aqua;
+
+}
+
+header h2 {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(6, 14, 83);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+}
+
+
+header {
+    padding: 1px;
+    background-color: #cccccc;
+    background-color: rgb(97, 6, 85);
+
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 10%;
+
+
+
+}
+
+nav {
+    background-color: rgb(18, 6, 97);
+    overflow: hidden;
+text-align: left;
+ 
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+nav a:hover {
+    color: aqua;
+}
+
+.footer {
+    background-color: rgb(18, 6, 97);
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: rgb(247, 240, 240);
+}
+
+footer a:hover {
+    color: aqua;
+}
+
+#founder {
+    background-color: rgba(132, 29, 143, 0.075);
+    text-align: center;
+}
+
+#founder h2 {
+    padding: 20px;
+}
+
+.font {
+    color: rgb(0, 0, 0);
+    font-family: "Times New Roman", Times, serif;
+    font-size: medium;
+    text-align: center;
+}
+
+
+
+.fonth2 {
+    color: rgb(0, 0, 0);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    text-align: center;
+
+
+}
+
+
+#topic:hover {
+    border-radius: 100%;
+    box-shadow: 0 32px 64px 0 rgb(58, 44, 120);
+    transition: 0.2s;
+    background-color: rgb(140, 200, 200);
+}
+
+.topic:hover {
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 12px 50px 0 rgb(16, 2, 79);
+    transition: 0.2s;
+
+
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 33.33%;
+    padding: 1px;
+    text-align: center;
+}
+
+.logoname {
+    flex: 33.33%;
+    padding: 1px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}

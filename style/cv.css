@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgba(142, 152, 246, 0.331);
+}
+.container{
+    background-color: rgba(186, 247, 227, 0.682);
+    margin: 5px 50px;
+    padding: 20px;
+    border: 1px solid black;
+}
+ h1,h2,h3,h4,h5,h6{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(5, 122, 158);
+}
+.profileimg{
+    padding: 0.1%;
+    height:100px ;
+    height: 120px;
+    border-radius: 50%;
+    float: left;
+}
+.name{
+    float: left;
+    padding: 30px;
+}
+.contact{
+    float: right;
+    padding: 30px;
+}
+.contact a{
+text-decoration: none;
+color: rgb(5, 122, 158);
+font-weight: bold;
+}
+.contact a:hover{
+text-decoration: underline;
+color: tomato;
+}
+.cleardiv{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: auto;
+    border-bottom: none;
+} 
+/* personal */
+.leftdiv{
+    padding: 70px 10px;
+width: 30%;
+float: left;
+}
+.rightdiv{
+  
+    width: 70%;
+    float: right;
+}
+.comhr{
+    border: black solid 1px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/* education */
+.eduleft{
+float: left;
+width: 47%;
+}
+.eduright{
+float: right;
+width: 47%;
+}

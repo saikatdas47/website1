@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/signup.css">
+    <style>
+        #bg {
+
+            background-image: url("img/bgcrop.jpg");
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position: 0%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <h1>Let's Learn by Royloard</h1>
+        </a>
+
+        <h2>SignUp</h2>
+    </header>
+    <span id="bg">
+        <img src="img/bgcrop.jpg" alt="" width="100%">
+    </span>
+    <nav>  <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="">Collage Review</a>
+        <a href="course.html">Course</a>
+        <a href="">Study Mateials</a>
+        <a href="payment.html">Payment</a>
+
+        <a href="logging.html">Login/SignUp</a>
+    </nav>
+    <div class="container">
+        <h1  class="mainhead">User Details</h1>
+        <hr>
+        <form action="">
+            <h2 class="mainhead">Contact information :</h2>
+            <p>Required fields are followed by *</p>
+
+            <div>
+                <p>Name *<input type="text" name="name" placeholder="Saikat Das" required> </p>
+                <fieldset>
+                    <legend>Gender *</legend>
+                    <p> Male <input type="radio" name="gender" id="" required>
+                        Female <input type="radio" name="gender" id="" required> </p>
+                </fieldset>
+                <p>Address: *<textarea name="address" id="" cols="60" rows="7" required></textarea></p>
+                <p>Email: *<input type="email" name="email" placeholder="Saikatdas@gmail.com" id="" required></p>
+                <p>Phone: <input type="number" name="phone"placeholder="018********" id=""></p>
+                <p>Password: *<input type="number" name="passeord" required></p>
+                <br>
+                <input type="submit" value="SignUp">
+            </div>
+        </form>
+    <br>
+    <h3 class="h2">Already have an account?
+    </h3><br>
+     <a href="logging.html"> <input type="submit" value="Log in"></a>
+</div>
+    <footer class="footer">
+        <a href="">FAQ</a>
+        <a href="">Contact Us</a>
+        <a href="">Terms of Use</a>
+        <a href="">Privacy Policy</a>
+        <a href="">Refund Policy</a>
+        <a href="">&copy; 2022 | Let's Learn by Royloard</a>
+    </footer>
+</body>
+
+</html>
